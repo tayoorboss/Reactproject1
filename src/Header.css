@@ -1,0 +1,27 @@
+/** @format */
+
+.Backg {
+    padding-top: 5px;
+  }
+  .header {
+    width: 28%;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  @media (min-width: 320px) {
+    .header {
+      width: 90%;
+      margin-top: 30px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
+  @media (min-width: 1025px) {
+    .header {
+      width: 30%;
+      margin-top: 30px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }

@@ -1,0 +1,132 @@
+/** @format */
+.Body {
+    background-color: white;
+    margin: 0 36%;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    position: relative;
+    bottom: 3px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .para {
+    font-size: 100%;
+    color: rgb(126, 126, 126);
+  }
+  .Body1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    height: 70px;
+  }
+  #change {
+    padding-top: 20px;
+    color: rgb(77, 0, 231);
+    font-size: 15px;
+  }
+  #musicicon {
+    width: auto;
+    height: 60%;
+    padding-top: 10px;
+  }
+  #annuel {
+    font-size: 20px;
+    padding-top: -50%;
+    padding-left: -10%;
+  }
+  #annual2 {
+    color: rgb(153, 153, 153);
+  }
+  .clickbutton {
+    /* background-color: rgb(71, 17, 179); */
+    height: 50px;
+    margin: 0 10%;
+    margin-top: 4%;
+    border-radius: 15px;
+    /* box-shadow: 5px 10px 5px 3px rgb(201, 201, 201); */
+  }
+  #buttontext {
+    cursor: pointer;
+    padding-top: 0px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px 0px rgb(201, 201, 201);
+  
+  }
+  #footer {
+    color: rgb(128, 128, 128);
+    font-size: small;
+  }
+
+
+  @media (min-width: 320px) {
+    .Body {
+    background-color: white;
+    margin: 0 5%;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    position: relative;
+    bottom: 3px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .para {
+    color: rgb(126, 126, 126);
+    font-size: 17px;
+    font-weight: 400;
+    width: 97%;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .Body1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 5%;
+    background-color: rgb(238, 238, 238);
+    border-radius: 8px;
+    height: 70px;
+}
+.clickbutton {
+  height: 50px;
+  margin: 0 5%;
+  margin-top: 4%;
+  border-radius: 15px;
+
+}
+#buttontext {
+  cursor: pointer;
+  padding-top: 0px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0px rgb(201 201 201);
+}
+
+}
+
+
+@media (min-width: 1025px) {
+  .Body {
+    background-color: white;
+    margin: 0 35%;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    position: relative;
+    bottom: 3px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
